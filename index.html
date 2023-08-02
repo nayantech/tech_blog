@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBlog</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-y: hidden;
+        }
+        #section1{
+            width: 100%;
+            height: 400px;
+            /* border: 1px solid red; */
+            background-image: url(field.jpg);
+            border-radius: 0px 0px 50px 50px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.658);
+
+        }
+        #section2{
+            width: 100%;
+            height: 200px;
+            /* border: 0px solid red; */
+            display: flex;
+        }
+        #div1{
+            width: 100%;
+            height: 200px;
+            /* border: 0px solid red; */
+            display: flex;
+        }
+        #div2{
+            width: 100%;
+            height: 200px;
+            /* border: 0px solid red; */
+        }
+        #div3{
+            display: flex;
+            justify-content: end;
+            width: 100%;
+            height: 100%;
+            /* border: 0px solid red; */
+            
+        }
+        #div3 input{
+            margin: 40px;
+            border: 150px ;
+            height: 50px;
+            /* border: 0px solid red; */
+            border-radius: 10px 5px 10px 5px;
+            
+        }
+        #div3 input:hover{
+            background-color: rgba(255, 255, 255, 0.658);
+        }
+        #ul1{
+            display: flex;
+            list-style: none;
+            margin: 60px;
+            
+        }
+        a{
+            text-decoration: none;  
+            padding: 20px;
+            color: white;
+        }
+        a:hover{
+            background-color: rgba(255, 255, 255, 0.658);
+        }
+        #div4{
+            width: 50%;
+            height: 100%;
+            margin: 0 auto;
+            /* border: 0px solid red; */
+            background-color: rgba(0, 0, 0, 0.397);
+        }
+        #section3{
+            width: 100%;
+            height: 520px;
+            /* border: 0px solid red; */
+            margin: 0px auto;
+            
+        }
+        #section3 section{
+            width: 80%;
+            height: 225px;
+            /* border: 0px solid red; */
+            margin: 20px auto;
+            /* background-color: black; */
+            display: flex;
+            justify-content: space-evenly;
+            /* color: white; */
+        }
+       #div5{
+            width: 30%;
+            height: 100%;
+            border: 10px outset red;
+            border-radius: 10px 50px;
+            padding: 5px;
+            
+       }
+       #a1{
+        
+        margin-left: 30%;
+        color: blue;
+        text-decoration: underline;
+
+        
+       }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="section1">
+            <section id="section2">
+                <div id="div1">
+                    <div id="div2">
+                        <ul id="ul1">
+                            <li><a href="">Tech BLog</a></li>
+                            <li><a href="">Learn With Nayan</a></li>
+                            <li><a href="">Categories</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">Registration</a></li>
+                        </ul>
+                    </div>
+                    <div id="div2">
+                       <div id="div3">
+                        <label for="search">Search
+                            <input type="search" name="" id="search" class="input1">
+                           </label>
+                       </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <section id="section2">
+                <div id="div4">
+                    <div >
+                        <p style="font-size: 5rem;">
+                            Welcome 2 Tech Blog
+                        </p>
+                        <p style="font-size: 1.5rem;" >Welcome to the technical blog a Programming language is a system of notation of writing computer programs</p>
+                        <p style="font-size: 1.5rem;">Most programming language are text-based formal language but they may also be graphical. they are kind of computer language</p>
+                    </div>
+                    
+                </div>
+            </section>
+        </section>
+
+        <section id="section3">
+            <section>
+                <div id="div5">
+                    <p style="font-size: 40px; text-align: center;">Java Programming</p>
+                    <p style="font-size: 25px; text-align: justify; margin-top: 10px;">
+                        Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
+                        <br>
+                        <a href="" id="a1">Read More</a>
+                    </p>
+                    
+                </div>
+                <div id="div5">
+                    <p style="font-size: 40px; text-align: center;">Python Programming</p>
+                    <p style="font-size: 25px; text-align: justify; margin-top: 10px;">
+                        Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+                        <br>
+                        <a href="https://www.w3schools.com/python/python_intro.asp" id="a1">Read More</a>
+                    </p>
+                </div>
+                <div id="div5">
+                    <p style="font-size: 40px; text-align: center;">C Programming</p>
+                    <p style="font-size: 25px; text-align: justify; margin-top: 10px;">
+                        C is a general-purpose computer programming language. It was created in the 1970s by Dennis Ritchie, and remains very widely used and influential.
+                        <br>
+                        <a href="https://www.w3schools.com/c/c_intro.php" id="a1">Read More</a>
+                    </p>
+                </div>
+            </section>
+
+
+
+            <section>
+                <div id="div5">
+                    <p style="font-size: 40px; text-align: center;">CPP Programming</p>
+                    <p style="font-size: 25px; text-align: justify; margin-top: 10px;">
+                        C++ is a high-level general-purpose programming language created by Danish computer scientist Bjarne Stroustrup and first released in 1985 as an extension
+                        <br>
+                        <a href="https://www.w3schools.com/cpp/cpp_intro.asp" id="a1">Read More</a>
+                    </p>
+                </div>
+                <div id="div5">
+                    <p style="font-size: 40px; text-align: center;">MySql Programming</p>
+                    <p style="font-size: 25px; text-align: justify; margin-top: 10px;">
+                        MySQL is an open-source relational database management system. Its name is a combination of "My", the name of co-founder Michael Widenius's daughter 
+                        <br>
+                        <a href="https://www.w3schools.com/MySQL/default.asp" id="a1">Read More</a>
+                    </p>
+                </div>
+                <div id="div5">
+                    <p style="font-size: 40px; text-align: center;">Html Programming</p>
+                    <p style="font-size: 25px; text-align: justify; margin-top: 10px;">
+                        The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted
+                        <br>
+                        <a href="https://www.w3schools.com/html/" id="a1">Read More</a>
+                    </p>
+                </div>
+            </section>
+        </section>
+    </main>
+
+</body>
+</html>
